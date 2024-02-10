@@ -9,12 +9,13 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh; /* Fill entire viewport height */
+    justify-content: flex-start; /* Change to flex-start */
+    height: calc(100vh - 100px); /* Adjusted height to accommodate favorites and search */
+    padding-top: 50px; /* Added padding to top */
 }
 
 #quiche-text {
-    font-size: 100px; /* Significantly larger font */
+    font-size: 48px; /* Significantly larger font */
     color: #fff;
     margin-bottom: 20px;
     z-index: 1; /* Ensure text stays on top */
@@ -82,4 +83,3 @@ body {
     background-color: transparent;
     z-index: -1;
 }
-
