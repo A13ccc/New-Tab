@@ -12,6 +12,7 @@ body {
     justify-content: flex-start; /* Change to flex-start */
     height: calc(100vh - 100px); /* Adjusted height to accommodate favorites and search */
     padding-top: 50px; /* Added padding to top */
+    color: #0000ff;
 }
 
 #cysta-text {
