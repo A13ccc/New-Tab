@@ -24,7 +24,8 @@ body {
 
 #cysta-text {
     font-family: 'alt-font';
-    font-size: 48px; /* Significantly larger font */
+    font-size: 60px;
+    font-weight: 200;
     color: #fff;
     margin-bottom: 10px;
     z-index: 1; /* Ensure text stays on top */
