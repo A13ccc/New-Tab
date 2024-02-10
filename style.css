@@ -10,6 +10,8 @@ body {
     src: url('font.ttf');
     font-family: 'HelveticaNeueThin';
     src: url('reg-font.otf');
+    font-family: 'alt-font';
+    src: url('alt-font.ttf');
 }
 
 .header {
@@ -21,7 +23,7 @@ body {
 }
 
 #cysta-text {
-    font-family: 'HelveticaNeue';
+    font-family: 'alt-font';
     font-size: 48px; /* Significantly larger font */
     color: #fff;
     margin-bottom: 10px;
