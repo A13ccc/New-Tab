@@ -14,8 +14,10 @@ body {
 
 .header {
     display: flex;
-    height: calc(100vh - 100px); /* Adjusted height to accommodate favorites and search */
-    padding-top: 50px; /* Added padding to top */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 #cysta-text {
@@ -37,7 +39,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    align-items: center;
 }
 
 #search-input {
@@ -46,8 +47,6 @@ body {
     padding: 10px 20px;
     font-size: 18px; /* Increased font size */
     margin-right: 5px;
-    justify-content: center;
-    align-items: center;
 }
 
 #search-button {
@@ -56,10 +55,7 @@ body {
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
-    font-size: 18px; /* Increased font size */
-    cursor: pointer;
-    justify-content: center;
-}
+    font-size: 18px;
 
 .favorites {
     margin-top: 20px; /* Move below search bar */
