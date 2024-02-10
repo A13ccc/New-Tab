@@ -5,6 +5,11 @@ body {
     background-color: #464646; /* Darker background color */
 }
 
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('font.ttf');
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -16,6 +21,7 @@ body {
 }
 
 #cysta-text {
+    font-family: 'HelveticaNeue';
     font-size: 48px; /* Significantly larger font */
     color: #fff;
     margin-bottom: 20px;
