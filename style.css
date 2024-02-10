@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #464646; /* Darker background color */
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Fill entire viewport height */
+}
+
+#quiche-text {
+    font-size: 100px; /* Significantly larger font */
+    color: #fff;
+    margin-bottom: 20px;
+    z-index: 1; /* Ensure text stays on top */
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px; /* Increased font size */
+    margin-right: 5px;
+}
+
+#search-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px; /* Increased font size */
+    cursor: pointer;
+}
+
+.favorites {
+    margin-top: 20px; /* Move below search bar */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
+
+.favorites h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+#favorite-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#favorite-links li {
+    margin-bottom: 5px;
+}
+
+#favorite-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: none;
+    background-color: transparent;
+    z-index: -1;
+}
+
