@@ -8,6 +8,8 @@ body {
 @font-face {
     font-family: 'HelveticaNeue';
     src: url('font.ttf');
+    font-family: 'HelveticaNeueThin';
+    src: url('reg-font.otf');
 }
 
 .header {
@@ -26,6 +28,12 @@ body {
     color: #fff;
     margin-bottom: 20px;
     z-index: 1; /* Ensure text stays on top */
+}
+
+#description {
+    font-family: 'HelveticaNeueThin';
+    font-size: 24px;
+    color: #fff;
 }
 
 .search-bar {
