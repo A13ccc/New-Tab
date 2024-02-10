@@ -7,11 +7,17 @@ body {
 
 @font-face {
     font-family: 'HelveticaNeue';
-    src: url('font.ttf');
+    src: url('font.ttf') format("truetype");
+}
+
+@font-face {
     font-family: 'HelveticaNeueThin';
-    src: url('reg-font.otf');
+    src: url('reg-font.otf') format("opentype");
+}
+
+@font-face {
     font-family: 'alt-font';
-    src: url('alt-font.ttf');
+    src: url('alt-font.ttf') format("truetype");
 }
 
 .header {
