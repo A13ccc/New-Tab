@@ -37,6 +37,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 #search-input {
@@ -46,6 +47,7 @@ body {
     font-size: 18px; /* Increased font size */
     margin-right: 5px;
     justify-content: center;
+    align-items: center;
 }
 
 #search-button {
