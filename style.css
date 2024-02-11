@@ -50,16 +50,15 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: left;
     position: relative;
+    margin-left: 50px;
 }
 
 #search-input {
     color: white;
-    text-align: left;
     background-color: #2f3237;
     border-radius: 30px;
-    padding: 13px 50px;
+    padding: 13px 175px;
     font-size: 17px;
     margin-right: 0px;
     transition: box-shadow .2s ease,color .3s ease;
@@ -67,22 +66,18 @@ body {
     border: solid 1px var(--grey-900-alpha12);
 }
 
+#search-input::placeholder {
+    text-align: left;
+}
+
 #search-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: rgba(0, 0, 0, 0.0);
     color: #fff;
     cursor: pointer;
     border: none;
     border-radius: 5px;
-    padding: 0px 0px;
+    padding: 0px 10px;
     font-size: 18px;
-    z-index: 1;
-    position: absolute;
-    top: 50%;
-    right: 730px;
-    transform: translateY(-50%);
 }
 
 footer {
