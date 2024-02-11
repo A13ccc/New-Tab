@@ -30,15 +30,6 @@ body {
     margin-top: 300px;
 }
 
-#cysta-text {
-    font-family: 'alt-font';
-    font-size: 60px;
-    font-weight: 200;
-    color: #fff;
-    margin-bottom: 10px;
-    z-index: 1;
-}
-
 #description {
     font-family: 'HelveticaNeueThin';
     font-size: 15px;
@@ -64,10 +55,6 @@ body {
     transition: box-shadow .2s ease,color .3s ease;
     box-shadow: 0 2px 16px 0 rgba(5, 5, 6, 4%), 0 4px 8px 0 rgba(5, 5, 6, 8%);;
     border: solid 1px var(--grey-900-alpha12);
-}
-
-#search-input::placeholder {
-    text-align: left;
 }
 
 #search-button {
