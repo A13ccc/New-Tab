@@ -39,6 +39,9 @@ body {
 }
 
 .search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 #search-input {
@@ -51,6 +54,7 @@ body {
     transition: box-shadow .2s ease,color .3s ease;
     box-shadow: 0 2px 16px 0 rgba(5, 5, 6, 4%), 0 4px 8px 0 rgba(5, 5, 6, 8%);;
     border: solid 1px var(--grey-900-alpha12);
+    flex: 1;
 }
 
 #search-button {
@@ -61,6 +65,10 @@ body {
     border-radius: 5px;
     padding: 0px 8px;
     font-size: 18px;
+}
+
+#search-button img {
+    transform: scaleX(-1);
 }
 
 footer {
