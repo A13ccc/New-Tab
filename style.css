@@ -21,11 +21,12 @@ body {
     src: url('alt-font.ttf') format("truetype");
 }
 
+.main-elements {
+    margin: 0 auto;
+    text-align: center;
+}
+
 .header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding-top: 50px;
     margin-top: 300px;
 }
@@ -38,11 +39,7 @@ body {
 }
 
 .search-box {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 #search-input {
@@ -68,9 +65,7 @@ body {
 }
 
 footer {
-    margin-top: 383px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    text-align: bottom;
 }
 
