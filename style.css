@@ -42,6 +42,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 75px;
 }
 
 #search-input {
@@ -67,12 +68,12 @@ body {
     font-size: 18px;
 }
 
-#search-button img {
-    transform: scaleX(-1);
-}
-
 footer {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
     text-align: center;
-    text-align: bottom;
+    position: absolute;
+    bottom: 0;
 }
 
