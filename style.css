@@ -29,6 +29,7 @@ body {
 }
 
 .header {
+  margin-bottom: 0px;
 }
 
 #description {
@@ -36,6 +37,7 @@ body {
     font-size: 15px;
     color: #ffffff;
     margin-bottom: 20px;
+    min-height: 50px;
 }
 
 .search-box {
@@ -67,6 +69,46 @@ body {
     padding: 0px 8px;
     font-size: 18px;
 }
+
+#bookmarks-container {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.bookmark {
+  display: flex; /* Arrange title and thumbnail horizontally */
+  align-items: center;
+  margin-bottom: 10px; /* Add spacing between bookmarks */
+  background-color: #f2f2f2; /* Lighter background */
+  padding: 5px 10px;
+  border-radius: 5px; /* Smooth corners */
+}
+
+.bookmark:last-child {
+  margin-bottom: 0; /* Remove bottom margin for the last bookmark */
+}
+
+.bookmark-count {
+  font-size: 12px;
+  color: #333;
+  margin-left: 10px;
+}
+
+.bookmark-title {
+  flex: 1; /* Title takes most space */
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.bookmark-thumbnail {
+  width: 20px; /* Smaller width */
+  height: 20px; /* Smaller height */
+  position: absolute; /* Position on top of title */
+  top: 5px; /* Adjust vertical positioning as needed */
+  left: 5px; /* Adjust horizontal positioning as needed */
+}
+
 
 footer {
     position: absolute;
