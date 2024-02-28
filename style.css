@@ -29,7 +29,7 @@ body {
 }
 
 .header {
-  margin-bottom: 0px;
+  margin-left: 13px;
 }
 
 #description {
@@ -49,15 +49,29 @@ body {
 
 #search-input {
     color: white;
-    background-color: #2f3237;
     border-radius: 30px;
     padding: 13px 50px;
     font-size: 17px;
     margin-right: 0px;
-    transition: box-shadow .2s ease,color .3s ease;
-    box-shadow: 0 2px 16px 0 rgba(5, 5, 6, 4%), 0 4px 8px 0 rgba(5, 5, 6, 8%);;
-    border: solid 1px var(--grey-900-alpha12);
+    transition: box-shadow .2s ease, color .3s ease;
+    box-shadow: 0 2px 16px 0 rgba(5, 5, 6, 4%), 0 4px 8px 0 rgba(5, 5, 6, 8%);
+    border: solid 1px transparent;
     flex: 1;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+}
+
+#search-input::before {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: inherit;
+  background: linear-gradient(to right, #004cff, #ff0000);
+  z-index: -1;
 }
 
 #search-button {
