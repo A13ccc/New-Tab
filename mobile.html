@@ -1,8 +1,33 @@
-<DOCYTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Mobile View</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Tab</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="mobile-style.css">
 </head>
 <body>
-    <p>Can you see this on mobile?</p>
+    <div class="main-elements">
+        <div class="header">
+            <img style="margin-bottom: 13px; "width="200px" height="40px" id="search-logo" src="images\logo.png">
+        </div>
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search with privacy...">
+            <button id="search-button">
+                <img src="images\search.svg" width="30px" height="30px">
+            </button>
+        </div>
+        <div class="logo">
+            <a href="https://cysta.net/">
+                <img id="logo" src="images\background-logo.png" alt="test">
+            </a>
+        </div>
+    </div>
+    <div id="bookmarks-container"></div>
+    <script src="script.js"></script>
+<footer>
+    <p style="font-family: 'HelveticaNeueThin'; color: white;">A W.I.P. new tab page, built by Alec @ Cysta</p>
+</footer>
 </body>
+</html>

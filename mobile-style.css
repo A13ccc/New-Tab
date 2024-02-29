@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: var(--background1);
+    --grey-900-alpha12: rgb(73, 74, 78);
+    --background1: #212327;
+    /*position, repeat, size */
+}
+
+@font-face {
+    font-family: 'HelveticaNeue';
+    src: url('font.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'HelveticaNeueThin';
+    src: url('reg-font.otf') format("opentype");
+}
+
+@font-face {
+    font-family: 'alt-font';
+    src: url('alt-font.ttf') format("truetype");
+}
+
+.main-elements {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+  margin-left: 0px;
+}
+
+#description {
+    font-family: 'HelveticaNeueThin';
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 20px;
+    min-height: 50px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 75px;
+}
+
+#search-input {
+    color: white;
+    background-color: var(--grey-900-alpha12);
+    border-radius: 30px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 20px;
+    padding-right: 60px;
+    font-size: 17px;
+    margin-right: 0px;
+    border: solid 1px transparent;
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    outline: none;
+}
+
+#search-input::placeholder {
+  color: rgb(200, 200, 200);
+}
+
+#search-button {
+    background-color: rgba(0, 0, 0, 0.0);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 8px;
+    font-size: 18px;
+}
+
+#bookmarks-container {
+  list-style: none; /* Remove default bullet points */
+  padding: 0;
+  margin: 0;
+}
+
+.bookmark {
+  display: flex; /* Arrange title and thumbnail horizontally */
+  align-items: center;
+  margin-bottom: 10px; /* Add spacing between bookmarks */
+  background-color: #f2f2f2; /* Lighter background */
+  padding: 5px 10px;
+  border-radius: 5px; /* Smooth corners */
+}
+
+.bookmark:last-child {
+  margin-bottom: 0; /* Remove bottom margin for the last bookmark */
+}
+
+.bookmark-count {
+  font-size: 12px;
+  color: #333;
+  margin-left: 10px;
+}
+
+.bookmark-title {
+  flex: 1; /* Title takes most space */
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+.bookmark-thumbnail {
+  width: 20px; /* Smaller width */
+  height: 20px; /* Smaller height */
+  position: absolute; /* Position on top of title */
+  top: 5px; /* Adjust vertical positioning as needed */
+  left: 5px; /* Adjust horizontal positioning as needed */
+}
+
+
+footer {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
