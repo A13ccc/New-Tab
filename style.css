@@ -2,8 +2,10 @@ body {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    background-color: #212327;
-    --grey-900-alpha12: #868c98;
+    background-color: var(--background1);
+    --grey-900-alpha12: rgb(73, 74, 78);
+    --background1: #212327;
+    /*position, repeat, size */
 }
 
 @font-face {
@@ -29,7 +31,7 @@ body {
 }
 
 .header {
-  margin-left: 13px;
+  margin-left: 0px;
 }
 
 #description {
@@ -49,6 +51,7 @@ body {
 
 #search-input {
     color: white;
+    background-color: var(--grey-900-alpha12);
     border-radius: 30px;
     padding-top: 13px;
     padding-bottom: 13px;
@@ -61,6 +64,10 @@ body {
     position: relative;
     overflow: hidden;
     outline: none;
+}
+
+#search-input::placeholder {
+  color: rgb(200, 200, 200);
 }
 
 #search-button {
